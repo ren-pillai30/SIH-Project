@@ -6,10 +6,6 @@ from sklearn.metrics import mean_squared_error, r2_score
 import matplotlib.pyplot as plt
 from google.colab import files
 
-# Upload the dataset (choose crop_production.csv when prompted)
-uploaded = files.upload()
-
-# Load the dataset
 df = pd.read_csv("crop_production.csv")
 
 print("Dataset Preview:")
